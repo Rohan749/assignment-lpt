@@ -1,0 +1,53 @@
+.desktopMid {
+  padding: 3rem 5rem;
+}
+
+.desktopMid_search {
+  display: flex;
+  align-items: center;
+}
+
+.desktopMid_search > input {
+  background-color: transparent;
+  width: 250px;
+  height: 41px;
+  border: none;
+  font-weight: bolder;
+  color: #808080;
+}
+
+.desktopMid_heading {
+  margin-top: 4rem;
+  font-size: 2.4rem;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #444343;
+
+
+}
+
+.filters {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #9fa2b4;
+  white-space: nowrap;
+}
+
+.desktopMid_tags {
+    margin: 3rem 0 1rem 1rem;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    margin: 9px 0;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #9FA2B4;   
+}
+

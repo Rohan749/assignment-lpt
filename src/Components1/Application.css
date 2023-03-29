@@ -1,0 +1,116 @@
+.application__body {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5px;
+  margin: 12px 0;
+}
+
+.app__body {
+    display: flex;
+    align-items: center;
+}
+
+.app_logo {
+  min-width: fit-content;
+  width: 5rem;
+}
+
+.application__desc {
+  width: 12rem;
+}
+
+.application__salary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app__position {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.app__site {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.app__location {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.salary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.monthly {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.state {
+  box-shadow: 0px 0px 9.39843px rgba(0, 0, 0, 0.25);
+  border-radius: 14.0976px;
+  width: 105px;
+  height: 23px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.025em;  
+  margin: 0 9px;
+}
+
+.reject {
+  background: #ffaaaa;
+  color: #af0808;
+}
+
+.select {
+  background: #C4FFD1;
+  color: rgb(11, 180, 47);
+}
+
+.process {
+  background: #FFF3B2;
+  color: rgb(118, 101, 5);
+}

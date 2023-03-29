@@ -1,0 +1,30 @@
+.desktopLeft {
+    background: rgba(246, 246, 246, 1);
+    min-height: 150vh;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desktopLeft {
+    left: auto;
+    right: auto;
+}
+
+.i1 {
+    width: 3rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 1rem 0 6rem 0;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    background-color: black;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.desktopLeft_icons {
+    margin: 1rem 0;
+}

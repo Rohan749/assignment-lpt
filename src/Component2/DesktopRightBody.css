@@ -1,0 +1,66 @@
+.desktopRightBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile_nav {
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.desktopRight_profile {
+}
+
+.right_name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.right_desc {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+
+.first_content {
+  display: flex;
+  align-items: center;
+  width: 22rem;
+}
+
+.profile_state {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252733;
+  width: 9rem;
+}
+
+.profile_percent {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  margin-right: 2rem;
+  color: #50b600;
+  width: 9rem;
+}
+
+.profile_date {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #8f8f8f;
+  margin-left: 5px;
+}

@@ -1,0 +1,43 @@
+.desktopRight {
+  width: 100%;
+  height: fit-content;
+  margin: 0 3rem;
+}
+
+.desktopRight_top {
+  display: flex;
+  margin: 3rem 0.5rem;
+  justify-content: end;
+  align-items: center;
+}
+
+.profile_name {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #656565;
+}
+
+.top_contents {
+  margin: 0 1rem;
+}
+
+.desktopRight_middle {
+  margin: 5rem 0;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+
+  color: #c8c7c7;
+}
+
+.desktopRight_body {
+    height: fit-content;
+    background: #FFFFFF;
+/* grayscale / divider */
+border: 1px solid #DFE0EB;
+min-width: 54em;
+border-radius: 8px;
+}

@@ -1,0 +1,41 @@
+.mid_body {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.mid_heading {
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
+
+.mid_search {
+  width: 395.74px;  
+  height: 62.13px;
+  background: url("./assets/Group.svg") no-repeat #f3f3f3;
+  background-position: 10px 50%;
+  padding-left: 40px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mid_selectors {
+  display: flex;
+  min-width: fit-content;
+  width: 45rem;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 1rem;
+}
+
+.selector {
+  width: 127.06px;
+  height: 42.35px;
+  background: #ffffff;
+  box-shadow: 0px 1.5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+}

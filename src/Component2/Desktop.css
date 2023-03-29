@@ -1,0 +1,6 @@
+.Desktop {
+    display: flex;
+    background: rgba(240, 240, 240, 1);
+    height: fit-content;
+    min-width: fit-content;
+}

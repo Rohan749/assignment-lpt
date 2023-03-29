@@ -1,0 +1,69 @@
+.nav_bar {
+  min-width: fit-content;
+  width: 100vw;
+  height: 93.98px;
+  background: #22506c;
+  box-shadow: 4px 0px 9px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 187.56px;
+  height: 55.11px;
+  margin-left: 2rem;
+}
+
+.navbar_form {
+  width: 601.01px;
+  height: 53px;
+  margin: 3rem;
+  padding: 0 2rem;
+  background-image: url('./assets/Group.svg');
+  background-position: 10px 50%;
+  background-repeat: no-repeat;
+  padding-left: 40px; 
+  border: none;
+  border-radius: 12px;
+  background-color: #F3F3F3;
+}
+
+
+.icons {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    cursor: pointer;
+}
+
+.nav_profile { 
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+    display: flex;
+}
+.profile_description {
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profileEdit_btn {
+    width: 100.94px;
+height: 19.28px;
+font-weight: 500;
+font-size: 8.06977px;
+line-height: 12px;
+}
+
+.profile_description > div {
+    margin: 4px 0;
+    color: white;
+}
