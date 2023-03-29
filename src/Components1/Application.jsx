@@ -1,5 +1,4 @@
 import React from "react";
-import job1 from "./assets/job1.svg";
 import "./Application.css";
 
 const Application = (props) => {

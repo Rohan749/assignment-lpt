@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./NavBar.css";
 import logo from "./assets/logo.svg";
-import Badge from "@mui/material/Badge";
 import messagelogo from "./assets/messages.svg";
 import bell from "./assets/Vector.svg";
 import award from "./assets/award.svg";
@@ -27,23 +26,12 @@ const NavBar = () => {
           className="navbar_form"
         />
         <div className="icons">
-          <Badge
-            className="badge"
-            badgeContent={17}
-            sx={{ paddingLeft: "2rem" }}
-            color="error"
-          >
-            <img src={messagelogo} alt="msg" />
-          </Badge>
-          <Badge badgeContent={17} sx={{ paddingLeft: "2rem" }} color="error">
-            <img src={bell} alt="notifications" />
-          </Badge>
-          <Badge badgeContent={17} sx={{ paddingLeft: "2rem" }} color="error">
-            <img src={award} alt="award" />
-          </Badge>
+        <nav className="nav__icons"><img src={messagelogo} alt="msg" /></nav>
+        <nav className="nav__icons"><img src={bell} alt="notifications" /></nav>
+        <nav className="nav__icons"><img src={award} alt="award" /></nav>      
         </div>
         <div className="nav_profile">
-          <img src={profile} />
+          <img src={profile} alt="profile"/>
           <div className="profile_description">
             <div>Akash Mishra</div>
             <button className="profileEdit_btn">EDIT MY PROFILE</button>

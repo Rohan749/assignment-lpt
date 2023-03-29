@@ -1,9 +1,8 @@
 import React from 'react'
 import "./DesktopMid.css"
 import vector from "./assets/Vector.svg"
-import { green } from '@mui/material/colors';
-import Switch from '@mui/material/Switch';
 import points from "./assets/points.svg"
+import Switch from './Switch'
 
 
 
@@ -19,8 +18,7 @@ const DesktopMid = () => {
       <div className='desktopMid_filters'>
         <h3>Filters</h3>
         <nav className='filters'>
-          <Switch />Show rejected applications <br />
-          <Switch />Show only subscribed applications
+          <Switch />
         </nav>
         <div className='desktopMid_tags'>
           <nav className='tag'>

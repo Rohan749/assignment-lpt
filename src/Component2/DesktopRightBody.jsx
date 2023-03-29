@@ -6,7 +6,7 @@ const DesktopRightBody = (props) => {
     <div className="desktopRightBody">
       <div className="first_content">
         <nav>
-          <img className="profile_nav" src={props.profile} />
+          <img className="profile_nav" src={props.profile} alt="profile" />
         </nav>
         <div className="desktopRight_profile">
             <span className="right_name">{props.name}</span><span className="profile_date">{props.date}</span>

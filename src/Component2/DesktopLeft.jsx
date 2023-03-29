@@ -11,7 +11,7 @@ const DesktopLeft = () => {
     <div className='desktopLeft'>
       <nav className='desktopLeft_logo'>
       </nav>
-      <Link to="/">
+      <Link to="/assignment-lpt">
       <nav className='i1'>JOB<br />TOOLI</nav>
       </Link>
       <nav className='desktopLeft_icons i2'> <img src={img1} alt="o"/> </nav>

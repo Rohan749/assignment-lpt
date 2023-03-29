@@ -3,10 +3,9 @@ import Body from './Components1/Body';
 import Desktop from './Component2/Desktop';
 import NavBar from './Components1/NavBar';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
-  Routes,
-  BrowserRouter
+  Routes
 } from "react-router-dom";
 
 
@@ -16,9 +15,9 @@ function App() {
     <div className='app'>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<><NavBar />
+      <Route path="/assignment-lpt" element={<><NavBar />
       <Body /></>}/>
-      <Route path="/applications" element={<Desktop />}/>
+      <Route path="assignment-lpt/applications" element={<Desktop />}/>
     </Routes>
     </BrowserRouter>
     </div>
