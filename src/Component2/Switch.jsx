@@ -7,13 +7,13 @@ const Switch = () => {
       <label class="toggle">
         <input class="toggle-checkbox" type="checkbox" />
         <div class="toggle-switch"></div>
-        <span class="toggle-label">Wi-fi</span>
+        <span class="toggle-label">Show rejected applications</span>
       </label>
         <br />
       <label class="toggle">
         <input class="toggle-checkbox" type="checkbox" />
         <div class="toggle-switch"></div>
-        <span class="toggle-label">Bluetooth</span>
+        <span class="toggle-label">Show only subscribed applications</span>
       </label>
     </div>
   );
